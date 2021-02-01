@@ -1,0 +1,80 @@
+html, body{
+  height: 100%;
+}
+body{
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.42;
+  background: #29292c ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+a{
+  color: inherit;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none;
+}
+h1, h2, h3, h4{
+  margin: 0;
+  font-weight: normal;
+}
+p{
+  margin-top: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  background: url(img/lion-header.jpg) center top no-repeat, url(img/bottom-pic.png) right bottom 307px no-repeat;
+  height: 100%;
+  min-width: 1100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__content{
+  flex: 1;
+}
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}
+.btn{
+  display: inline-block;
+  background: #dfb56d; 
+  border-radius: 4px;
+  padding: 17px 38px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  }
+  .btn_color_ginger{
+    background: #dfb56d; 
+  }
+  .btn_color_ginger:hover{
+    background: #d3a556;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15) ;
+  }
+  .btn_color_black{
+    background: #202123;
+  }
+  .btn_color_black:hover{
+    background: #dfb56d;
+  }
+  .section{
+    margin-bottom: 130px;
+  }
+  .section__title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 45px;
+  }
