@@ -1,9 +1,9 @@
 .contacts{
-  position: absolute;
   top: 30px;
   right: 0;
   font-style: normal;
   text-align: right;
+  padding-top: 4px;
 }
 .contacts__desc{
   color: #999;
@@ -18,4 +18,6 @@
   font-size: 13px;
   text-decoration: underline;
   color: #dfb56d;
+  margin-right: 3px;
+  margin-top: -5px;
 }

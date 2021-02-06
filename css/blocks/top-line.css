@@ -1,0 +1,16 @@
+.top-line{
+  min-height: 415px;
+  background: url("./img/lion-head-wide.jpg") center top no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+.top-line__container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-line__header{
+  padding-top: 26px;
+}

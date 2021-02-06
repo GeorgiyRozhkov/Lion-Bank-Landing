@@ -1,17 +1,26 @@
 .hero{
-  margin-bottom: 180px;
+  margin-bottom: 195px;
 }
 .hero__text-section{
-  width: 400px;
+  width: 44%;
 }
 .hero__title{
-  font-size: 48px;
+  font-size: 58px;
   font-weight: bold;
-  line-height: 1.2;
-  margin-bottom: 18px;
+  line-height: 1.1;
+  margin-bottom: 27px;
 }
 .hero__subtitle{
   font-size: 18px;
   color: #dfb56d;
-  margin-bottom: 44px;
+  margin-bottom: 38px;
+}
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+.hero__btn{
+  margin-bottom: -13px;
 }

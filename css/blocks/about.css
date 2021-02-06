@@ -1,19 +1,23 @@
+.about-section{
+  margin-bottom: -5px;
+}
+.about{
+  display: flex;
+}
 .about:before{
+  display: block;
   content: "";
-  display: inline-block;
-  vertical-align: top;
   width: 488px;
   height: 502px;
-  background: url(img/chess.jpg) center center / cover no-repeat;
+  background: url('../../img/chess.jpg') center center / cover no-repeat;
+  margin-top: 17px;
 }
 .about__desc{
   background: #202123;
-  padding:80px 98px ;
-  display: inline-block;
-  vertical-align: top;
-  width: 780px;
-  margin-left: -142px;
-  margin-top: 166px;
+  padding: 67px 82px;
+  max-width: 780px;
+  margin-left: -137px;
+  margin-top: 114px;
 }
 .about__title{
   font-weight: bold;
@@ -21,7 +25,7 @@
   margin-bottom: 40px;
 }
 .about__desc-text{
-  margin-bottom: 42px;
+  margin-bottom: 71px;
 }
 .about__desc-text p{
   margin-bottom: 20px;

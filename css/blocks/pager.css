@@ -1,20 +1,35 @@
 .pager{
-  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
 }
-.pager__display, .pager__list{
-  display: inline-block;
-  vertical-align: middle;
+.pager_theme_light{
+  color: #000;
+  margin-left: 34px;
+}
+.pager_theme_light .pager__item_active .pager__link{
+  color: #fff;
+  background: #353439;
+}
+.pager_theme_light .pager__link:hover{
+  color: #fff;
+  background: #353439;
 }
 .pager__display{
-  margin-right: 26px;
+  margin-right: 33px;
+}
+.pager__list{
+  display: flex;
+  align-items: center;
 }
 .pager__item{
-  display: inline-block;
-  vertical-align: middle;
+  text-align: center;
 }
 .pager__item_active .pager__link{
   background: #353538;
 }
+
 .pager__link{
   display: block;
   width: 32px;
@@ -23,4 +38,7 @@
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+}
+.pager__link:hover{
+  background: #353538;
 }

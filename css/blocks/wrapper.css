@@ -1,0 +1,14 @@
+.wrapper{
+  min-height: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content{
+  flex: 1;
+}
+.main-page-wrapper{
+  background: url('../../img/lion-header.jpg') center top 25px no-repeat, url('../../img/bottom-pic.png') right -631px bottom 25px no-repeat;
+}

@@ -1,12 +1,10 @@
 .socials{
-  position: absolute;
-  top: 53px;
-  right: 300px;
+  margin-right: 73px;
 }
 .socials__item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .socials__item:last-child{
   margin-right: 0;
@@ -19,26 +17,26 @@
   background: center center no-repeat;
 }
 .socials__item_icon_tg .socials__link{
-  background-image: url(img/tg.png);
+  background-image: url('img/tg.png');
 }
 .socials__item_icon_tg .socials__link:hover{
-  background: url(img/tgh.png);
+  background: url('img/tgh.png');
 }
 .socials__item_icon_vk .socials__link{
-  background-image: url(img/vk.png);
+  background-image: url('img/vk.png');
 }
 .socials__item_icon_vk .socials__link:hover{
-  background: url(img/vkh.png);
+  background: url('img/vkh.png');
 }
 .socials__item_icon_fb .socials__link{
-  background-image: url(img/fb.png);
+  background-image: url('img/fb.png');
 }
 .socials__item_icon_fb .socials__link:hover{
-  background: url(img/fbh.png);
+  background: url('img/fbh.png');
 }
 .socials__item_icon_ig .socials__link{
-  background-image: url(img/ig.png);
+  background-image: url('img/ig.png');
 }
 .socials__item_icon_ig .socials__link:hover{
-  background: url(img/igh.png);
+  background: url('img/igh.png');
 }
