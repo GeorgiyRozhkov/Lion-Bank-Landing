@@ -1,5 +1,4 @@
 .services{
-  margin: -21px;
   margin-bottom: 80px;
 }
 .services__item{
@@ -10,7 +9,7 @@
 }
 .service{
   display: flex;
-  padding: 30px 40px;
+  padding: 30px 20px;
 }
 .service:hover{
   background: #F5F5F5;
@@ -21,11 +20,11 @@
 .service__img{
   width: 41%;
   margin-right: 4%;
+  padding-right: 12px;
   
 }
 .service__img-elem{
   width: 100%;
-  margin-left: -11px;
 }
 .service__content{
   flex: 1;
@@ -38,7 +37,7 @@
 }
 .service__desc{
   line-height: 1.7;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 .service__btn-wrap{
   padding-top: 24px;

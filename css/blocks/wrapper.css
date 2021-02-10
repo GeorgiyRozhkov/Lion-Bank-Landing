@@ -10,5 +10,5 @@
   flex: 1;
 }
 .main-page-wrapper{
-  background: url('../../img/lion-header.jpg') center top 25px no-repeat, url('../../img/bottom-pic.png') right -631px bottom 25px no-repeat;
+  background: url('../../img/lion-header.jpg') center top 0px no-repeat, url('../../img/bottom-pic.png') left 631px bottom 25px no-repeat;
 }

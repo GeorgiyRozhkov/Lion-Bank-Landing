@@ -8,6 +8,7 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
+  text-align: center;
   }
   .btn_color_ginger{
     background: #dfb56d; 
@@ -21,4 +22,7 @@
   }
   .btn_color_black:hover{
     background: #dfb56d;
+  }
+  .btn_size_l{
+    width: 100%;
   }

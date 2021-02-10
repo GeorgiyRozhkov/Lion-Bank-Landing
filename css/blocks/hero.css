@@ -1,8 +1,9 @@
 .hero{
-  margin-bottom: 195px;
+  margin-bottom: 181px;
 }
 .hero__text-section{
   width: 44%;
+  padding-top: 114px;
 }
 .hero__title{
   font-size: 58px;
@@ -20,7 +21,4 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 600px;
-}
-.hero__btn{
-  margin-bottom: -13px;
 }
