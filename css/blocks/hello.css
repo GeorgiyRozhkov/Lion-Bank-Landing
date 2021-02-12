@@ -1,17 +1,16 @@
 .hello{
-  content: "";
-   background: 
-    url('../../img/splash.jpg') center center no-repeat,
-    url('../../img/flare.png') top 115px left 350px no-repeat; 
+  background:
+  url('../../img/flare.png') top 75% left 65% no-repeat,
+  url('../../img/splash.jpg') center center no-repeat;
+  background-size: auto 500px, cover;
   min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
-  
 }
 .hello__content{
-  margin: 380px auto;
+  margin: 228px auto;
   animation: bounce;
   animation-duration: 2s;
 } 

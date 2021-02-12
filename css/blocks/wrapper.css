@@ -12,3 +12,7 @@
 .main-page-wrapper{
   background: url('../../img/lion-header.jpg') center top 0px no-repeat, url('../../img/bottom-pic.png') left 631px bottom 25px no-repeat;
 }
+.hello-wrapper{
+  min-width: none;
+  height: 100%;
+}
