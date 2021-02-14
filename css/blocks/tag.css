@@ -1,0 +1,15 @@
+.tag{
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  padding: 9px 15px;
+  background: #E7E7E7;
+  border-radius: 35px;
+  margin-right: 15px;
+}
+.tag:last-child{
+  margin-right: 0;
+}
+.tag_bg_green{
+  background: #B9EAE4;
+}

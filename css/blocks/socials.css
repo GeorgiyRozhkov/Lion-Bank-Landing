@@ -1,10 +1,14 @@
 .socials{
   margin-right: 73px;
+  display: flex
 }
 .socials__item{
   display: inline-block;
   vertical-align: middle;
   margin-right: 6px;
+  width: 36px;
+  height: 36px;
+  background:url('../../img/socials_sprites.png') center center no-repeat;
 }
 .socials__item:last-child{
   margin-right: 0;
@@ -12,31 +16,17 @@
 .socials__link{
   display: block;
   text-decoration: none;
-  width: 36px;
-  height: 36px;
-  background: center center no-repeat;
+  
 }
-.socials__item_icon_tg .socials__link{
-  background-image: url('../../img/tg.png');
+.socials__item_icon_tg{
+  background-position:-66px -66px;
 }
-.socials__item_icon_tg .socials__link:hover{
-  background: url('../../img/tgh.png');
+.socials__item_icon_vk{
+  background-position:-10px -66px;
 }
-.socials__item_icon_vk .socials__link{
-  background-image: url('../../img/vk.png');
+.socials__item_icon_fb{
+  background-position:-10px -10px;
 }
-.socials__item_icon_vk .socials__link:hover{
-  background: url('../../img/vkh.png');
-}
-.socials__item_icon_fb .socials__link{
-  background-image: url('../../img/fb.png');
-}
-.socials__item_icon_fb .socials__link:hover{
-  background: url('../../img/fbh.png');
-}
-.socials__item_icon_ig .socials__link{
-  background-image: url('../../img/ig.png');
-}
-.socials__item_icon_ig .socials__link:hover{
-  background: url('../../img/igh.png');
+.socials__item_icon_ig{
+  background-position:-66px -10px;
 }

@@ -39,8 +39,16 @@ img{
   display: block;
   max-width: 100%;
 }
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
 .container{
   margin: 0 auto;
   width: 1140px;
+}
+:hover{
+  transition: .3s;
 }
   

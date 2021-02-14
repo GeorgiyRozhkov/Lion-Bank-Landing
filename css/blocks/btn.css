@@ -23,6 +23,12 @@
   .btn_color_black:hover{
     background: #dfb56d;
   }
+  .btn_color_grey{
+    background: #8E8E8E;
+  }
+  .btn_color_grey:hover{
+    background: #202123;
+  }
   .btn_size_l{
     width: 100%;
   }

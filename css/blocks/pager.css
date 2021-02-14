@@ -42,3 +42,6 @@ font-size: 16px;
 .pager__link:hover{
   background: #353538;
 }
+.pager__reviews{
+  margin-left: 0;
+}

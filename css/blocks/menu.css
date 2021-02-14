@@ -17,6 +17,7 @@
 .menu__link{
   font-size: 14px;
   text-decoration: none;
+  transition: color .3s;
 }
 .menu__link:hover{
   color: #dfb56d;

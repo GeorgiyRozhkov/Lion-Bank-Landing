@@ -1,0 +1,17 @@
+.separator{
+  display: flex;
+  flex-direction: column;
+  background: url('../../img/phone-in-hand.png') right 8% bottom 130% no-repeat #E5C288;
+  min-height: 365px;
+  justify-content: center;
+  color: #222;
+}
+.separator__content{
+  max-width: 48%;
+}
+.separator__title{
+  font-size: 48px;
+  font-weight: bold;
+  
+  line-height: 1.1;
+}
