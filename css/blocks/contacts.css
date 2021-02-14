@@ -20,6 +20,8 @@
 .contacts__timetable{
   display: inline-block;
   position: relative;
+  width: max-content;
+  margin-left: auto;
   
 }
 .contacts__timetable:hover .contacts__drop{
