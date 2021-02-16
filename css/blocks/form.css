@@ -11,6 +11,10 @@
   padding: 22px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  outline: none;
+}
+.form__input:focus{
+  border: 1px solid #E5C288;
 }
 .form__input::placeholder{
   color: #666;
@@ -31,6 +35,7 @@
 }
 .form__btn{
   margin-right: 22px;
+  outline: none;
 }
 .form__btn:last-child{
   margin-right: 0;
